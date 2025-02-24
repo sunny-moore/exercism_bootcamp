@@ -1,3 +1,4 @@
+```javascript
 //functions in this set
 //length(string_or_list)
 //sort_out_socks(list)
@@ -138,3 +139,4 @@ function length with list do
   end
   return count
 end
+```
