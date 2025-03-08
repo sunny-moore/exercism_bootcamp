@@ -36,18 +36,10 @@ function check_at_block with a_ball, block_list do
   return smashed
 end
 
-function length with string do
-  set count to 0
-  for each char in string do
-    change count to count + 1
-  end
-  return count
-end
-
 repeat_until_game_over do
   change smashed_list to check_at_block(ball, blocks)
   check_at_wall(ball, right_bottom, left_top)
-  if length(smashed_list) < 5 do
+  if my#length(smashed_list) < 5 do
     move_ball(ball)
   else do
     break
