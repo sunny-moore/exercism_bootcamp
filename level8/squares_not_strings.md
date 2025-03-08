@@ -36,7 +36,6 @@ end
 
 set emoji_list to {}
 set emoji to ""
-log(emoji_list)
 
 repeat_until_game_over do
   if can_turn_left() do
